@@ -1,3 +1,127 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+  background-color: #ab0d62;
+}
+
+/*Fondo de Primera seccion */
+#BackgroundHeroes {
+  background-image: linear-gradient(#76278F, #2B1E66);
+  bottom: 4em;
+  margin-left: 15%;
+  height: 150vh;
+  width: 70vw;
+}
+/*Titulo de la seccion de registro */
+.first{
+  font-size: 2em;
+  font-weight: 900;
+  color: #76278f;
+}
+/*Cabecera, movimiento hacia abajo*/
+header{
+  padding-top: 3%;
+}
+/*Bloque dentro de la caja de Registro*/
+.InsideSignUp-Box{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 2em;
+  padding-left: 5em;
+}
+
+/*Icono de Lyft movible de manera independiente*/
+#LogoWhite {
+  height: 2.8em;
+  width: 4em;
+  position: relative;
+  right: -5%;
+  display: inline-block;
+}
+/*Boton de Login de header que se mueve de manera independiente*/
+#Login {
+  background-color: #76278F;
+  border-color: white;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  padding: .5em;
+  width: 5em;
+}
+/*Barra que contiene logo, botones y Etiquetas de navegacion*/
+.nav {
+
+  display: inline-block;
+}
+/* Etiquetas de navegacion*/
+.navigationBar {
+  color: white;
+  font-size: 1.1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  padding: 2em;
+  position: relative;
+  left: 50%;
+  text-decoration: none;
+}
+/*Input de caja de primera seccion */
+#PhoneNumber{
+  display: block;
+  border: 0em;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: #dedede;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  margin-bottom: 1em;
+  height: 5vh;
+  width: 20vw;
+}
+/*Subtitulo de la seccion de registro */
+.second{
+  color: #76278F
+  font-size: 1em;
+  font-weight: 900;
+  margin-top: 2%;
+  margin-bottom: 4%;
+
+}
+/*Caja que contiene todo dentro de primera seccion*/
+.SignUpBox{
+  background-color: white;
+  margin-top: 4%;
+  position: relative;
+  left: 57%;
+  height: 40vh;
+  width: 30vw;
+}
+/*Letras peque;as que se encuentran dentro de la caja de la primera seccion*/
+
+.SignUpBox span{
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+}
+/*Botones de Inicio de secion y registro*/
+.SignUpButton{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 3em;
+  display: inline-block;
+}
+/*Boton 1 personalizacion*/
+.BecomeDiver{
+  background-color: #9f19c9;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  margin-right: 1em;
+  width: 12em;
+}
+/*Boton 2 personalizacion*/
+.UptoRide{
+  background-color: white;
+  border: none;
+  text-decoration: underline;
+  font-size: 1em;
+}
