@@ -2,18 +2,12 @@ body {
   background-color: #ab0d62;
 }
 
-/*Fondo de Primera seccion */
-#BackgroundHeroes {
-  background-image: linear-gradient(#76278F, #2B1E66);
-  bottom: 4em;
-  margin-left: 15%;
-  height: 150vh;
-  width: 70vw;
-}
+
 /*Titulo de la seccion de registro */
 .first{
   font-size: 2em;
   font-weight: 900;
+  text-align: left;
   color: #76278f;
 }
 /*Cabecera, movimiento hacia abajo*/
@@ -32,7 +26,7 @@ header{
   height: 2.8em;
   width: 4em;
   position: relative;
-  right: -5%;
+  right: 25%;
   display: inline-block;
 }
 /*Boton de Login de header que se mueve de manera independiente*/
@@ -59,7 +53,7 @@ header{
   font-weight: bolder;
   padding: 2em;
   position: relative;
-  left: 50%;
+  left: 23%;
   text-decoration: none;
 }
 /*Input de caja de primera seccion */
@@ -80,6 +74,7 @@ header{
   color: #76278F
   font-size: 1em;
   font-weight: 900;
+  text-align: left;
   margin-top: 2%;
   margin-bottom: 4%;
 
@@ -89,14 +84,15 @@ header{
   background-color: white;
   margin-top: 4%;
   position: relative;
-  left: 57%;
-  height: 40vh;
-  width: 30vw;
+  left: 60%;
+  height: 400px;
+  width: 40%;
 }
 /*Letras peque;as que se encuentran dentro de la caja de la primera seccion*/
 
 .SignUpBox span{
   font-family: 'Montserrat', sans-serif;
+  text-align: left;
   display: block;
 }
 /*Botones de Inicio de secion y registro*/
@@ -104,6 +100,8 @@ header{
   font-family: 'Montserrat', sans-serif;
   margin-top: 1em;
   margin-bottom: 1em;
+  position: relative;
+  right: 13%;
   height: 3em;
   display: inline-block;
 }
@@ -125,3 +123,114 @@ header{
   text-decoration: underline;
   font-size: 1em;
 }
+/*background*/
+.gif{
+background-image: url("./../assets/images/hero.gif");
+background-size: contain;
+background-position: top;
+text-align: center;
+height: 610px;
+width: 100%;
+bottom: 4em;
+
+}
+/*second background*/
+#SectionBackground{
+  background-image: linear-gradient(#691B84, #2B1E66);
+  height: 480px;
+  width: 100%;
+}
+/*Contenedor de parrafo de la segunda seccion */
+.Second-SectionContainer{
+  color: white;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  margin-top: 50px;
+  left: 10%;
+  width: 40%;
+
+}
+/*Celular de segunda seccion */
+.CelphoneImage{
+  display: inline-block;
+  position: relative;
+  left: 53%;
+  bottom: 24.5em;
+  height: 400px;
+  width: 40%;
+
+}
+/*Titulos de la segunda seccion */
+.titles-SecondSection{
+  font-size: 2em;
+}
+/*Contenedor de la tercera seccion */
+.Container-thirdSection{
+  background-color: white;
+  display: inline-block;
+  height: 399px;
+  width: 40%;
+}
+/*Video Way to glow*/
+.Video-WaytoGlow{
+  position: relative;
+  bottom: 107px;
+  left: 50%;
+}
+/*Dise;o de contenedor  de tercera seccion*/
+.Container-paragraph-thirdSection{
+  position: relative;
+  top: 40px;
+  left: 10%;
+  font-family: 'Montserrat', sans-serif;
+}
+.Container-paragraph span{
+  font-size: .7em;
+}
+.titles-ThirdSection{
+  font-size: 2em;
+}
+/*Dise;o de contenedor de cuarta seccion*/
+.Container-paragraph-FourthSection{
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  left: 60%;
+  bottom:218px;
+  height: 399px;
+  width: 40%;
+}
+.Container-paragraph-FourthSection>span{
+ font-size: .7em;
+}
+.titles-FourSection{
+  font-size: 2em;
+}
+
+.Video-June{
+  position: relative;
+  bottom: 309px;
+}
+.paragraph-FourSection{
+  position: relative;
+  left: 10%;
+}
+/*Dise;o quinta seccion */
+.Container-paragraph-fifthSection{
+  background-color: white;
+  display: inline-block;
+  height: 399px;
+  width: 40%;
+}
+.Container-paragraph-fifthSection>span{
+  font-size: .7em;
+}
+.titles-fifthSection{
+  font-size: 2em;
+}
+.Video-UpQuickly{
+
+}
+.
